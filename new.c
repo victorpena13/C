@@ -26,7 +26,18 @@ int main() {
    printf("\n");
    printf("%f\n", 5.0 / 3.0);
 
-   printf("%f",pow(2,3)); //2^3
+   const int five = 5; // cannot be changed.
+
+
+   int age;
+   printf("please enter your age: ");
+   scanf("%d", &age);
+   printf("you are %d years old", age);
+   
+
+
+
+
 
    return 0;
 }
